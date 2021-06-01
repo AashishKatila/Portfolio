@@ -146,6 +146,9 @@ input[type=submit]:hover {
 }
 
 @media only screen and (max-width: 767px){
+	.item-grid img{
+		margin-left: 5%;
+	}
 	.naam,.std,.desc{
 		text-align: center;
 	}
@@ -156,5 +159,13 @@ input[type=submit]:hover {
 @media only screen and (max-width: 395px){
 	nav ul li a{
 		font-size: 16px;
+	}
+	.item-grid img{
+		margin-left: 7%;
+	}
+}
+@media only screen and (max-width: 331px){
+	nav ul li a{
+		font-size: 14px;
 	}
 }
